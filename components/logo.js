@@ -6,7 +6,7 @@ import styled from '@emotion/styled'
 
 const LogoBox = styled.span`
     font-weight: bold;
-    font-size: 18px;
+    font-size: 20px;
     display: inline-flex;
     align-items: center;
     height: 30px;
@@ -14,15 +14,15 @@ const LogoBox = styled.span`
     padding: 10px;
 
     &:hover img {
-        transform: rotate(20deg);
+        transform: rotate(30deg);
     }
 `
 const Logo = () => {
-    const footPrintImg = "/public/images/footprint.png"
+    const printImg = "/images/mouse.png"
     return (
         <Link href = "/">
             <LogoBox>
-                <Image src = {footPrintImg} width = {20} height = {20} alt = "logo" />
+                <Image src = {printImg} width = {30} height = {30} alt = "logo" />
                 <Text color = {useColorModeValue('gray.800', 'whiteAlpha.900')} 
                 fontFamily = 'M PLUS Rounded 1c'
                 fontWeight = "bold"
