@@ -2,7 +2,7 @@
     "root": true,
     "extends": "next",
     "rules": {
-        "no-used-vars": [
+        "no-unused-vars": [
             "error",
             {
                 "argsIgnorePattern": "^_",
