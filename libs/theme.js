@@ -16,7 +16,7 @@ const components = {
                 textDecoration: 'underline',
                 fontSize: 20,
                 textUnderLineOffset: 6,
-                textDecorationColor: '525252',
+                textDecorationColor: '#525252',
                 textDecorationThickness: 4,
                 marginTop:3,
                 marginBottom: 4
@@ -26,7 +26,7 @@ const components = {
 
     Link: {
         baseStyle: props => ({
-            color: mode('#3d7aed', 'ff63c3')(props),
+            color: mode('#3d7aed', '#ff63c3')(props),
             textUnderLineOffset: 3
         })
     },
@@ -45,6 +45,6 @@ const config = {
     useSystemColorMode: true
 }
 
-const theme = extendTheme({ config, styles, components, fonts, colors })
+const theme = extendTheme({ config, styles, components, colors, fonts })
 
 export default theme
