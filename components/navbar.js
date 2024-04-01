@@ -9,6 +9,7 @@ import {
     Heading,
     Menu,
     MenuItem,
+    MenuList,
     MenuButton,
     IconButton,
     useColorModeValue
@@ -74,7 +75,21 @@ const Navbar = props => {
                                 as = {IconButton} 
                                 icon = {<HamburgerIcon />} 
                                 variant = "outline" 
-                                aria-label = "Options"/>        
+                                aria-label = "Options"
+                            >
+                            </MenuButton>  
+                            {/* <MenuList> */}
+                                {/* <NextLink href = "/" passHref> */}
+                                    {/* <MenuItem as = {Link}>About</MenuItem> */}
+                                {/* </NextLink> */}
+                                {/* <NextLink href = "/works" passHref> */}
+                                    {/* <MenuItem as = {Link}>Works</MenuItem> */}
+                                {/* </NextLink> */}
+                                {/* <NextLink href = "/posts" passHref> */}
+                                    {/* <MenuItem as = {Link}>Posts</MenuItem> */}
+                                {/* </NextLink> */}
+                                {/* <MenuItem as = {Link} href = "http://www.craftz.dog/">Source Code</MenuItem> */}
+                            {/* </MenuList>       */}
                         </Menu>
                     </Box>
                 </Box>
