@@ -1,3 +1,4 @@
+import { forwardRef } from 'react'
 import Logo from './logo'
 import NextLink from 'next/link'
 import {
@@ -32,6 +33,10 @@ const LinkItem = ({ href, path, children }) => {
     )
 }
 
+// const MenuLink = forwardRef((props, ref) => (
+//     <Link ref={ref} as={NextLink} {...props} />
+// ))
+
 const Navbar = props => {
     const { path } = props
 
@@ -65,9 +70,17 @@ const Navbar = props => {
                     flexGrow = {1}
                     mt = {{base: 4, nmd: 0}}
                 >
-                    <LinkItem href = "/works" path = {path}> Works</LinkItem>
-                    <LinkItem href = "/posts" path = {path}> About</LinkItem>
+
+                    {/* // these cause issues */}
+                    <LinkItem href = "/works" path = {path}>
+                        Works
+                    </LinkItem>
+                    <LinkItem href = "/posts" path = {path}>
+                        About
+                    </LinkItem>
+
                 </Stack>
+
                 <Box flex = {1} align = "right">
                     <Box ml = {2} display = {{base: 'inline-block', md: 'none'}}>
                         <Menu>
@@ -76,20 +89,25 @@ const Navbar = props => {
                                 icon = {<HamburgerIcon />} 
                                 variant = "outline" 
                                 aria-label = "Options"
-                            >
-                            </MenuButton>  
+                            />
                             <MenuList>
-                                <NextLink href = "/" passHref>
-                                    <MenuItem as = {Link}>About</MenuItem>
-                                </NextLink>
-                                <NextLink href = "/works" passHref>
-                                    <MenuItem as = {Link}>Works</MenuItem>
-                                </NextLink>
-                                <NextLink href = "/posts" passHref>
-                                    <MenuItem as = {Link}>Posts</MenuItem>
-                                </NextLink>
-                                <MenuItem as = {Link} href = "http://www.craftz.dog/">Source Code</MenuItem>
-                            </MenuList>      
+                                <MenuItem as={Link} href="/">
+                                    About
+                                </MenuItem>
+                                <MenuItem as={Link} href="/works">
+                                    Works
+                                </MenuItem>
+                                <MenuItem as={Link} href="/wallpapers">
+                                    Wallpapers
+                                </MenuItem>
+                                <MenuItem as={Link} href="/posts">
+                                    Posts
+                                </MenuItem>
+                                <MenuItem as={Link} href="https://uses.craftz.dog/">
+                                    Uses
+                                </MenuItem>
+                                <MenuItem as = {Link} href = "http://www.github.com/Younghyuuk/AYC-Website">Source Code</MenuItem>
+                            </MenuList>  
                         </Menu>
                     </Box>
                 </Box>
