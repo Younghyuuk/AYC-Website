@@ -72,12 +72,12 @@ const Navbar = props => {
                 >
 
                     {/* // these cause issues */}
-                    <LinkItem href = "/works" path = {path}>
+                    {/* <LinkItem href = "/works" path = {path}>
                         Works
                     </LinkItem>
                     <LinkItem href = "/posts" path = {path}>
                         About
-                    </LinkItem>
+                    </LinkItem> */}
 
                 </Stack>
 
