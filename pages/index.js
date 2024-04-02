@@ -18,7 +18,7 @@ const Page = () => {
                     ml = {{ md: 6 }} 
                     align = "center"
                 >
-                    <Image borderColor = "blackAlpha.800" 
+                    <Image borderColor = "whiteAlpha.800" 
                         borderWidth = {2} 
                         borderStyle = "solid" 
                         maxWidth = "100px" 
