@@ -1,8 +1,8 @@
-import { Container, Box, Image, Heading } from '@chakra-ui/react'
+import { Container, Box, Image, Heading, useColorModeValue } from '@chakra-ui/react'
 const Page = () => {
     return (
         <Container> 
-            <Box borderRadius = "lg" bg = "red" p = {3} mb = {5} align = "center">
+            <Box borderRadius = "lg" bg = {useColorModeValue("whiteAlpha.500", "whiteAlpha.200")} p = {3} mb = {5} align = "center">
                 Hello, I&apos;m a full-stack developer based in the US!
             </Box>
             <Box display  = {{md:'flex'}} >
@@ -14,14 +14,14 @@ const Page = () => {
                 </Box>
                 <Box 
                     flexShrink = {0} 
-                    mt = {{ base: 4, md: 0 }} 
-                    ml = {{ md: 6 }} 
+                    mt = {{ base: 3, md: 0 }} 
+                    ml = {{ md: 1 }} 
                     align = "center"
                 >
                     <Image borderColor = "whiteAlpha.800" 
-                        borderWidth = {2} 
+                        borderWidth = {3} 
                         borderStyle = "solid" 
-                        maxWidth = "100px" 
+                        maxWidth = "110px" 
                         display = "inline-block" 
                         borderRadius = "full"
                         src = "/images/Profile.jpg" 
