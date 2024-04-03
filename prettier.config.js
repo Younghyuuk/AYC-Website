@@ -6,8 +6,6 @@ const options = {
     semi: false,
     tabWidth: 2,
     trailingComma: "none",
-
-
 }
 
 module.exports = options
