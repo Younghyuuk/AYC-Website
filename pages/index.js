@@ -30,6 +30,7 @@ const Page = () => {
                         borderWidth = {2} 
                         borderStyle = "solid" 
                         maxWidth = "110px" 
+                        height = "120"
                         display = "inline-block" 
                         borderRadius = "full"
                         src = "/images/Profile.jpg" 
@@ -37,15 +38,18 @@ const Page = () => {
                     />
                 </Box>
             </Box>
+
             <Section delay = {0.1}>
-                <Heading as = "h3" variant = "section-title">
+                <Heading as="h3" variant = "section-title">
                 Work
                 </Heading>
                 <p>
                     Paragraph
                 </p>
             </Section>
+
         </Container>
+        
     )
 }
 
