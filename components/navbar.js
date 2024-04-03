@@ -16,22 +16,26 @@ import {
     useColorModeValue
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
+import ThemeToggleButton from './themeToggle'
 
-const LinkItem = ({ href, path, children }) => {
+const LinkItem = ({ href, path, target, children, ...props }) => {
     const active = path === href
-    const inactiveColor = useColorModeValue('gray200', 'whiteAlpha.900')
+    const inactiveColor = useColorModeValue('gray.800', 'whiteAlpha.900')
     return (
-        <NextLink href = {href}>
-            <Link 
-                p = {2}
-                bg = {active ? 'glassTeal' : undefined}
-                color = {active ? '#202023' : inactiveColor}
-            >
-                {children}
-            </Link>
-        </NextLink>
+      <Link
+        as={NextLink}
+        href={href}
+        scroll={false}
+        p={2}
+        bg={active ? 'grassTeal' : undefined}
+        color={active ? '#202023' : inactiveColor}
+        target={target}
+        {...props}
+      >
+        {children}
+      </Link>
     )
-}
+  }
 
 // const MenuLink = forwardRef((props, ref) => (
 //     <Link ref={ref} as={NextLink} {...props} />
@@ -70,18 +74,17 @@ const Navbar = props => {
                     flexGrow = {1}
                     mt = {{base: 4, nmd: 0}}
                 >
-
-                    {/* // these cause issues */}
-                    {/* <LinkItem href = "/works" path = {path}>
+                    <LinkItem href = "/works" path = {path}>
                         Works
                     </LinkItem>
                     <LinkItem href = "/posts" path = {path}>
                         About
-                    </LinkItem> */}
+                    </LinkItem>
 
                 </Stack>
 
                 <Box flex = {1} align = "right">
+                    <ThemeToggleButton />
                     <Box ml = {2} display = {{base: 'inline-block', md: 'none'}}>
                         <Menu>
                             <MenuButton 
@@ -96,9 +99,6 @@ const Navbar = props => {
                                 </MenuItem>
                                 <MenuItem as={Link} href="/works">
                                     Works
-                                </MenuItem>
-                                <MenuItem as={Link} href="/wallpapers">
-                                    Wallpapers
                                 </MenuItem>
                                 <MenuItem as={Link} href="/posts">
                                     Posts
