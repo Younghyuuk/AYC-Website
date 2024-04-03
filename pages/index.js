@@ -1,11 +1,14 @@
+import NextLink from 'next/link'
 import { 
     Container, 
     Box, 
     Image, 
     Heading, 
+    Link,
     useColorModeValue 
 } from '@chakra-ui/react'
 import Section from '../components/section'
+import Paragraph from '../components/paragraphStyle'
 
 const Page = () => {
     return (
@@ -43,9 +46,9 @@ const Page = () => {
                 <Heading as="h3" variant = "section-title">
                 Work
                 </Heading>
-                <p>
+                <Paragraph>
                     Paragraph
-                </p>
+                </Paragraph>
             </Section>
 
         </Container>
