@@ -5,16 +5,18 @@ const Works = () => {
     return (
         <Container>
             <Section>
-                <Heading as = "h1" variant = "section-title">
+                <Heading as = "h3" fontSize = {20} mb = {4}>
                     Works
                 </Heading>
-                <Divider />
+                {/* <Divider />
                 <SimpleGrid columns = {1} spacing = {4}>
                     <div>
                         <p>Here are some of the projects I have worked on:</p>
                     </div>
-                </SimpleGrid>
+                </SimpleGrid> */}
             </Section>
         </Container>
     )
 }
+
+export default Works
