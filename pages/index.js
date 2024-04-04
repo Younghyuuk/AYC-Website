@@ -79,6 +79,15 @@ const Page = () => {
                     Expected to finish Bachelor&apos;s.
                 </BioSection>
             </Section>
+
+            <Section delay = {0.3}>
+                <Heading as = "h3" variant = "section-title">
+                    Hobbies
+                </Heading>
+                <Paragraph>
+                    Video Games, Anime, Working out, and Programming.
+                </Paragraph>
+            </Section>
         </Container>
         
     )
