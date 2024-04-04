@@ -13,7 +13,7 @@ import Paragraph from '../components/paragraphStyle'
 const Page = () => {
     return (
         <Container> 
-            <Box borderRadius = "lg" bg = {useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p = {3} mb = {5} align = "center">
+            <Box borderRadius = "lg" bg = {useColorModeValue('whiteAlpha.700', 'whiteAlpha.500')} p = {3} mb = {5} align = "center">
                 Hello, I&apos;m a full-stack developer based in the US!
             </Box>
             <Box display  = {{md:'flex'}} >
