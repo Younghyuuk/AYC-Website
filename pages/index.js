@@ -70,6 +70,14 @@ const Page = () => {
                     <BioYear>2002</BioYear> 
                     Born in Los Angeles, California.
                 </BioSection>
+                <BioSection>
+                    <BioYear>2020</BioYear> 
+                    Started my Bachelor&apos;s at the University of Washington Tacoma.
+                </BioSection>
+                <BioSection>
+                    <BioYear>June 2024</BioYear> 
+                    Expected to finish Bachelor&apos;s.
+                </BioSection>
             </Section>
         </Container>
         
