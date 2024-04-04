@@ -1,5 +1,6 @@
 import NextLink from 'next/link'
 import { 
+    Button,
     Container, 
     Box, 
     Image, 
@@ -7,8 +8,10 @@ import {
     Link,
     useColorModeValue 
 } from '@chakra-ui/react'
+import { ChevronRightIcont } from '@chakra-ui/icons'
 import Section from '../components/section'
 import Paragraph from '../components/paragraphStyle'
+import { ChevronRightIcon } from '@chakra-ui/icons'
 
 const Page = () => {
     return (
@@ -49,6 +52,13 @@ const Page = () => {
                 <Paragraph>
                     Paragraph
                 </Paragraph>
+                <Box align = "center" my = {4}>
+                    <NextLink href = "/work">
+                    <Button rightIcon = {<ChevronRightIcon />} colorScheme = "teal" variant = "outline">
+                        My Portfolio
+                    </Button>
+                    </NextLink>
+                </Box>
             </Section>
 
         </Container>
