@@ -32,11 +32,11 @@ export const WorkGrid = ({ children, id, title, thumbnail }) => (
                 placeholder = 'blur' 
                 loading = 'lazy' />
                 <LinkOverlay href = {`/works/${id}`}>
-                    <Text mt = {2} fontSize = {20}>
+                    <Text mt = {2} fontSize = {18}>
                         {title}
                     </Text>
                 </LinkOverlay>
-                <Text fontSize = {14}> 
+                <Text fontSize = {13}> 
                     {children} 
                 </Text>
             </LinkBox>
