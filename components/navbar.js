@@ -74,11 +74,17 @@ const Navbar = props => {
                     flexGrow = {1}
                     mt = {{base: 4, nmd: 0}}
                 >
-                    <LinkItem href = "/works" path = {path}>
-                        Works
+                    <LinkItem href = "/projects" path = {path}>
+                        Projects
                     </LinkItem>
-                    <LinkItem href = "/posts" path = {path}>
-                        About
+                    <LinkItem href = "https://www.github.com/Younghyuuk" path = {path}>
+                        Github
+                    </LinkItem>
+                    <LinkItem href = "https://www.linkedin.com/in/andrew-chon-b03666298/" path = {path}>
+                        LinkedIn
+                    </LinkItem>
+                    <LinkItem href = "http://www.github.com/Younghyuuk/AYC-Website" path = {path}>
+                        Source Code
                     </LinkItem>
 
                 </Stack>
@@ -94,17 +100,14 @@ const Navbar = props => {
                                 aria-label = "Options"
                             />
                             <MenuList>
-                                <MenuItem as={Link} href="/">
-                                    About
-                                </MenuItem>
-                                <MenuItem as={Link} href="/works">
+                                <MenuItem as={Link} href="/projects">
                                     Works
                                 </MenuItem>
-                                <MenuItem as={Link} href="/posts">
-                                    Posts
+                                <MenuItem as={Link} href="https://www.github.com/Younghyuuk">
+                                    Github
                                 </MenuItem>
-                                <MenuItem as={Link} href="https://uses.craftz.dog/">
-                                    Uses
+                                <MenuItem as={Link} href="https://www.linkedin.com/in/andrew-chon-b03666298/">
+                                    LinkedIn
                                 </MenuItem>
                                 <MenuItem as = {Link} href = "http://www.github.com/Younghyuuk/AYC-Website">Source Code</MenuItem>
                             </MenuList>  
