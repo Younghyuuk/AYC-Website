@@ -26,7 +26,7 @@ const Page = () => {
                         <Heading as = "h2" variant = "page-title"> 
                             Andrew Y. Chon
                         </Heading>
-                        <p> Software Developer </p>
+                        <p> Aspiring Software Developer </p>
                     </Box>
                     <Box 
                         flexShrink = {0} 
@@ -76,8 +76,12 @@ const Page = () => {
                         Started my Bachelor&apos;s at the University of Washington Tacoma.
                     </BioSection>
                     <BioSection>
+                        <BioYear>Winter 2023</BioYear> 
+                        Started research at the University of Washington Tacoma with Professor Marriott.
+                    </BioSection>
+                    <BioSection>
                         <BioYear>June 2024</BioYear> 
-                        Expected to finish Bachelor&apos;s.
+                        Completed my Bachelor&apos;s in computer science.
                     </BioSection>
                 </Section>
 
