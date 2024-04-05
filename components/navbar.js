@@ -77,9 +77,9 @@ const Navbar = props => {
                     <LinkItem href = "/projects" path = {path}>
                         Projects
                     </LinkItem>
-                    <LinkItem href = "https://www.github.com/Younghyuuk" path = {path}>
+                    {/* <LinkItem href = "https://www.github.com/Younghyuuk" path = {path}>
                         Github
-                    </LinkItem>
+                    </LinkItem> */}
                     <LinkItem href = "https://www.linkedin.com/in/andrew-chon-b03666298/" path = {path}>
                         LinkedIn
                     </LinkItem>
@@ -103,9 +103,9 @@ const Navbar = props => {
                                 <MenuItem as={Link} href="/projects">
                                     Works
                                 </MenuItem>
-                                <MenuItem as={Link} href="https://www.github.com/Younghyuuk">
+                                {/* <MenuItem as={Link} href="https://www.github.com/Younghyuuk">
                                     Github
-                                </MenuItem>
+                                </MenuItem> */}
                                 <MenuItem as={Link} href="https://www.linkedin.com/in/andrew-chon-b03666298/">
                                     LinkedIn
                                 </MenuItem>
