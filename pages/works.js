@@ -4,7 +4,7 @@ import { WorkGrid } from '../components/grids'
 import thumbSlime from '../public/images/thumbSlime.png'
 import thumbNook from '../public/images/thumbNook.png'
 import thumbResearch from '../public/images/thumbResearch.png'
-import thumbDungeonDrop from '../public/images/mouse.png'
+import thumbDungeon from '../public/images/thumbDungeon.png'
 
 const Works = () => (
         <Container>
@@ -14,12 +14,12 @@ const Works = () => (
                 </Heading>
                 <SimpleGrid columns = {[1,1,2]} gap = {6}>
                     <Section delay={0.1}>
-                    <WorkGrid id = "inkdrop" title = "BioDegen Research" thumbnail = {thumbResearch}>
+                    <WorkGrid id = "BioDegen" title = "BioDegen Research" thumbnail = {thumbResearch}>
                         An application to study biodgenerative processes with myself and a professor.
                     </WorkGrid>
                     </Section> 
                    <Section delay={0.4}>
-                    <WorkGrid id = "inkdrop" title = "Revenge of Slime" thumbnail = {thumbSlime}>
+                    <WorkGrid id = "Slime" title = "Revenge of Slime" thumbnail = {thumbSlime}>
                         A 2d roguelike game that a team of 3 developers created in 7 weeks.
                     </WorkGrid>
                     </Section> 
@@ -27,6 +27,11 @@ const Works = () => (
                         {/* <Divider my = {6}/> */}
                         <WorkGrid id = "FocusNook" title = "FocusNook" thumbnail = {thumbNook}>
                             A task management tool that enhances productivity.
+                        </WorkGrid>
+                    </Section>
+                    <Section delay = {0.8}>
+                        <WorkGrid id = "Dungeon" title = "DungeonAdventure" thumbnail = {thumbDungeon}>
+                            A game created in Java that allows you to roam a randomly generated dungeon and auto fight monsters.
                         </WorkGrid>
                     </Section>
                 </SimpleGrid>
