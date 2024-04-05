@@ -22,9 +22,9 @@ const Page = () => {
                     Hello, I&apos;m a full-stack developer based in the US!
                 </Box>
                 <Box display  = {{md:'flex'}} >
-                    <Box flexGrow = {1} >   
+                    <Box flexGrow = {0.8} >   
                         <Heading as = "h2" variant = "page-title"> 
-                            Andrew Chon
+                            Andrew Y. Chon
                         </Heading>
                         <p> Software Developer </p>
                     </Box>
