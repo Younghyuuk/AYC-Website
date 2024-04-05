@@ -93,6 +93,14 @@ const Page = () => {
                         Video Games, Anime, Working out, and Programming.
                     </Paragraph>
                 </Section>
+                <Section delay = {0.3}>
+                    <Heading as = "h3" variant = "section-title">
+                        Inspired By
+                    </Heading>
+                    <Paragraph>
+                        blank for now
+                    </Paragraph>
+                </Section>
             </Container>
         </Layout>
     )
