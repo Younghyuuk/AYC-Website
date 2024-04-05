@@ -9,7 +9,7 @@ import {
     useColorModeValue 
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
-import Layout from '../components/layouts/article'
+import Layout from '../components/layouts/pageTransition'
 import Section from '../components/section'
 import Paragraph from '../components/paragraphStyle'
 import { BioSection, BioYear } from '../components/biography'
