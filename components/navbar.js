@@ -77,8 +77,14 @@ const Navbar = props => {
                     <LinkItem href = "/works" path = {path}>
                         Works
                     </LinkItem>
-                    <LinkItem href = "/about" path = {path}>
-                        About
+                    <LinkItem href = "https://www.github.com/Younghyuuk" path = {path}>
+                        Github
+                    </LinkItem>
+                    <LinkItem href = "https://www.linkedin.com/in/andrew-chon-b03666298/" path = {path}>
+                        LinkedIn
+                    </LinkItem>
+                    <LinkItem href = "http://www.github.com/Younghyuuk/AYC-Website" path = {path}>
+                        Source Code
                     </LinkItem>
 
                 </Stack>
@@ -94,11 +100,14 @@ const Navbar = props => {
                                 aria-label = "Options"
                             />
                             <MenuList>
-                                <MenuItem as={Link} href="/">
-                                    About
-                                </MenuItem>
                                 <MenuItem as={Link} href="/works">
                                     Works
+                                </MenuItem>
+                                <MenuItem as={Link} href="https://www.github.com/Younghyuuk">
+                                    Github
+                                </MenuItem>
+                                <MenuItem as={Link} href="https://www.linkedin.com/in/andrew-chon-b03666298/">
+                                    LinkedIn
                                 </MenuItem>
                                 <MenuItem as = {Link} href = "http://www.github.com/Younghyuuk/AYC-Website">Source Code</MenuItem>
                             </MenuList>  
