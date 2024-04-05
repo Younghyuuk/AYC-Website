@@ -14,8 +14,8 @@ const LogoPic = () => {
       }}
     >
       <MotionBox 
-        animate={{ scale: [1, 1.05, 1] }}
-        transition={{ duration: 2, repeat: Infinity }}
+        animate={{ y: ["0%", "10%", "0%"] }}
+        transition={{ duration: 3, repeat: Infinity }}
       >
         <Image 
           borderColor="whiteAlpha.200" 
