@@ -52,7 +52,7 @@ const Page = () => {
 
                 <Section delay = {0.1}>
                     <Heading as="h3" variant = "section-title">
-                    Work
+                    About
                     </Heading>
                     <Paragraph>
                     Based in Auburn, Washington, I'm a full-stack developer passionate about creating digital solutions, 
