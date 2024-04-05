@@ -1,8 +1,7 @@
-import { Box, useColorMode } from '@chakra-ui/react'
-import Image from 'next/image'
+import { Box, Image } from '@chakra-ui/react'
+// import Image from 'next/image'
 
 const LogoPic = () => {
-  const { colorMode } = useColorMode()
 
   return (
     <Box 
@@ -10,14 +9,19 @@ const LogoPic = () => {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        height: "25vh"
+        height: "20vh"
       }}
     >
-      <Image 
-        src={ "/images/mouse.png"}
-        width="98" 
-        height="100" 
-      />
+      <Image borderColor = "whiteAlpha.200" 
+          borderWidth = {2} 
+          borderStyle = "solid" 
+          width = "120"
+          height = "120"
+          display = "inline-block" 
+          borderRadius = "full"
+          src = "/images/frontLogo.png" 
+          alt = "Logo Image" 
+       />
     </Box>
   )
 }
