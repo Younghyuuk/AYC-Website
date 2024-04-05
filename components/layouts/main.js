@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Navbar from '../navbar'
 import { Box, Container }  from '@chakra-ui/react' 
-import LogoPic from '../logoPic'
+import LogoPic from '../LogoPic'
 
 const Main = ({children, router }) => {
     return (
