@@ -74,8 +74,8 @@ const Navbar = props => {
                     flexGrow = {1}
                     mt = {{base: 4, nmd: 0}}
                 >
-                    <LinkItem href = "/works" path = {path}>
-                        Works
+                    <LinkItem href = "/projects" path = {path}>
+                        Projects
                     </LinkItem>
                     <LinkItem href = "https://www.github.com/Younghyuuk" path = {path}>
                         Github
@@ -100,7 +100,7 @@ const Navbar = props => {
                                 aria-label = "Options"
                             />
                             <MenuList>
-                                <MenuItem as={Link} href="/works">
+                                <MenuItem as={Link} href="/projects">
                                     Works
                                 </MenuItem>
                                 <MenuItem as={Link} href="https://www.github.com/Younghyuuk">

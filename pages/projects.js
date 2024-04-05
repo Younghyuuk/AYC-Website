@@ -6,7 +6,7 @@ import thumbNook from '../public/images/thumbNook.png'
 import thumbResearch from '../public/images/thumbResearch.png'
 import thumbDungeon from '../public/images/thumbDungeon.png'
 
-const Works = () => (
+const Projects = () => (
         <Container>
             <Section>
                 <Heading as = "h3" fontSize = {20} mb = {4}>
@@ -40,4 +40,4 @@ const Works = () => (
 )
 
 
-export default Works
+export default Projects
