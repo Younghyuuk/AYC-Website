@@ -1,7 +1,7 @@
 import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
 import Section from '../components/section'
 import { WorkGrid } from '../components/grids'
-import thumbSlime from '../public/images/thumbSlime3.png'
+import thumbSlime from '../public/images/thumbSlime.png'
 import thumbNook from '../public/images/thumbNook.png'
 import thumbResearch from '../public/images/thumbResearch.png'
 import thumbDungeonDrop from '../public/images/mouse.png'
