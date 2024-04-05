@@ -14,19 +14,10 @@ const LogoPic = () => {
       }}
     >
       <Image 
-        src={"/images/mouse.png"}
+        src={ "/images/mouse.png"}
         width="98" 
         height="100" 
-        style={{
-          animation: 'spinHorizontal 4s linear infinite'
-        }}
       />
-      <style jsx global>{`
-        @keyframes spinHorizontal {
-          0% { transform: rotate(0deg); }
-          100% { transform: rotate(1turn); }
-        }
-      `}</style>
     </Box>
   )
 }
