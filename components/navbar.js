@@ -77,7 +77,7 @@ const Navbar = props => {
                     <LinkItem href = "/works" path = {path}>
                         Works
                     </LinkItem>
-                    <LinkItem href = "/posts" path = {path}>
+                    <LinkItem href = "/about" path = {path}>
                         About
                     </LinkItem>
 
@@ -99,12 +99,6 @@ const Navbar = props => {
                                 </MenuItem>
                                 <MenuItem as={Link} href="/works">
                                     Works
-                                </MenuItem>
-                                <MenuItem as={Link} href="/posts">
-                                    Posts
-                                </MenuItem>
-                                <MenuItem as={Link} href="https://uses.craftz.dog/">
-                                    Uses
                                 </MenuItem>
                                 <MenuItem as = {Link} href = "http://www.github.com/Younghyuuk/AYC-Website">Source Code</MenuItem>
                             </MenuList>  
