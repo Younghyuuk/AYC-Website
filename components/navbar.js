@@ -17,6 +17,10 @@ import {
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './themeToggle'
+import { IoLogoGithub } from 'react-icons/io5'
+import { FaLinkedin } from 'react-icons/fa';
+
+
 
 const LinkItem = ({ href, path, target, children, ...props }) => {
     const active = path === href
@@ -80,11 +84,28 @@ const Navbar = props => {
                     {/* <LinkItem href = "https://www.github.com/Younghyuuk" path = {path}>
                         Github
                     </LinkItem> */}
-                    <LinkItem href = "https://www.linkedin.com/in/andrew-chon-b03666298/" path = {path}>
+                    <LinkItem  target = "_blank"  
+                    href = "https://www.linkedin.com/in/andrew-chon-b03666298/" 
+                    path = {path}
+                    display = "inline-flex"
+                    alignItems = "center"
+                    style = {{ gap: 5}}
+                    pl={2}
+                    >
+                    <FaLinkedin />
                         LinkedIn
                     </LinkItem>
-                    <LinkItem href = "http://www.github.com/Younghyuuk/AYC-Website" path = {path}>
-                        Source Code
+                    <LinkItem 
+                    target = "_blank" 
+                    href = "http://www.github.com/Younghyuuk/AYC-Website" 
+                    path = {path}
+                    display = "inline-flex"
+                    alignItems = "center"
+                    style = {{ gap: 5}}
+                    pl={2}
+                    >
+                    
+                    <IoLogoGithub />Source Code
                     </LinkItem>
 
                 </Stack>
