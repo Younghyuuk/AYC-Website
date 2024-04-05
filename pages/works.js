@@ -3,7 +3,7 @@ import Section from '../components/section'
 import { WorkGrid } from '../components/grids'
 import thumbInkDrop from '../public/images/mouse.png'
 import thumbSlime from '../public/images/thumbSlime.png'
-import thumbNookDrop from '../public/images/mouse.png'
+import thumbNook from '../public/images/thumbNook.png'
 import thumbDungeonDrop from '../public/images/mouse.png'
 
 const Works = () => (
@@ -20,7 +20,7 @@ const Works = () => (
                     </WorkGrid>
                     </Section> 
                     <Section>
-                        <WorkGrid id = "FocusNook" title = "FocusNook" thumbnail = {thumbInkDrop}>
+                        <WorkGrid id = "FocusNook" title = "FocusNook" thumbnail = {thumbNook}>
                             A task management tool that enhances productivity.
                         </WorkGrid>
                     </Section>
