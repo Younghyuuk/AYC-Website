@@ -6,9 +6,12 @@ import {
     Image, 
     Heading, 
     Link,
+    List,
+    ListItem,
     useColorModeValue 
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
+import { IoLogoGithub } from 'react-icons/io5'
 import Layout from '../components/layouts/pageTransition'
 import Section from '../components/section'
 import Paragraph from '../components/paragraphStyle'
@@ -77,6 +80,10 @@ const Page = () => {
                         Born in Los Angeles, California.
                     </BioSection>
                     <BioSection>
+                        <BioYear>2016</BioYear> 
+                        Started highschool at Auburn Riverside Highschool.
+                    </BioSection>
+                    <BioSection>
                         <BioYear>2020</BioYear> 
                         Started my Bachelor&apos;s at the University of Washington Tacoma.
                     </BioSection>
@@ -86,8 +93,17 @@ const Page = () => {
                     </BioSection>
                     <BioSection>
                         <BioYear>June 2024</BioYear> 
-                        Completed my Bachelor&apos;s in computer science.
+                        Complete my Bachelor&apos;s in computer science.
                     </BioSection>
+                </Section>
+
+                <Section delay = {0.3}>
+                    <Heading as = "h3" variant = "section-title">
+                        Skills
+                    </Heading>
+                    <Paragraph>
+                        JavaScript, Java, Node.js, React, Next.js, MongoDB, SQL, Git, CSS, HTML, JUnit, Agile Methodologies.
+                    </Paragraph>
                 </Section>
 
                 <Section delay = {0.3}>
@@ -95,15 +111,37 @@ const Page = () => {
                         Hobbies
                     </Heading>
                     <Paragraph>
-                        Video Games, Anime, Working out, and Programming.
+                        Video Games, Anime/Cartoons, Working out, Music, PC building, Keyboard building.
                     </Paragraph>
                 </Section>
+               
                 <Section delay = {0.3}>
                     <Heading as = "h3" variant = "section-title">
-                        Inspired By
+                        Github
+                    </Heading>
+                    <List>
+                        <ListItem>
+                            <Link href="https://github.com/Younghyuuk" target="_blank">
+                                <Button
+                                    variant="ghost"
+                                    colorScheme="teal"
+                                    leftIcon={<IoLogoGithub />}
+                                >
+                                    @Younghyuk
+                                </Button>
+                            </Link>
+                    </ListItem>
+                </List>
+                </Section>
+
+                <Section delay = {0.3}>
+                    <Heading as = "h3" variant = "section-title">
+                        Based On
                     </Heading>
                     <Paragraph>
-                        blank for now
+                    <Link href="https://www.craftz.dog/" target="_blank">
+                             Takuya Matsuyama
+                    </Link>
                     </Paragraph>
                 </Section>
             </Container>
