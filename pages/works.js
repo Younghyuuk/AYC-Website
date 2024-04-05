@@ -3,6 +3,7 @@ import Section from '../components/section'
 import { WorkGrid } from '../components/grids'
 import thumbSlime from '../public/images/thumbSlime3.png'
 import thumbNook from '../public/images/thumbNook.png'
+import thumbResearch from '../public/images/thumbResearch.png'
 import thumbDungeonDrop from '../public/images/mouse.png'
 
 const Works = () => (
@@ -12,7 +13,12 @@ const Works = () => (
                     Projects
                 </Heading>
                 <SimpleGrid columns = {[1,1,2]} gap = {6}>
-                   <Section delay={0.3}>
+                    <Section delay={0.1}>
+                    <WorkGrid id = "inkdrop" title = "BioDegen Research" thumbnail = {thumbResearch}>
+                        An application to study biodgenerative processes with myself and a professor.
+                    </WorkGrid>
+                    </Section> 
+                   <Section delay={0.4}>
                     <WorkGrid id = "inkdrop" title = "Revenge of Slime" thumbnail = {thumbSlime}>
                         A 2d roguelike game that a team of 3 developers created in 7 weeks.
                     </WorkGrid>
