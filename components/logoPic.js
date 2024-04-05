@@ -19,7 +19,7 @@ const LogoPic = () => {
           height = "120"
           display = "inline-block" 
           borderRadius = "full"
-          src = "/images/frontLogo.png" 
+          src = "/images/mainLogo.png" 
           alt = "Logo Image" 
        />
     </Box>
