@@ -37,7 +37,7 @@ const Page = () => {
                         <Image borderColor = "whiteAlpha.800" 
                             borderWidth = {2} 
                             borderStyle = "solid" 
-                            maxWidth = "110px" 
+                            maxWidth = "120px" 
                             height = "120"
                             display = "inline-block" 
                             borderRadius = "full"
