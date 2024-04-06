@@ -1,10 +1,10 @@
 import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import Section from '../components/section'
 import { WorkGrid } from '../components/grids'
-import thumbSlime from '../public/images/thumbnailSlime.png'
-import thumbNook from '../public/images/thumbnailNook.png'
-import thumbResearch from '../public/images/thumbnailResearch.png'
-import thumbDungeon from '../public/images/thumbnailDungeon.png'
+import thumbSlime from '../public/images/thumbnails/thumbnailSlime.png'
+import thumbNook from '../public/images/thumbnails/thumbnailNook.png'
+import thumbResearch from '../public/images/thumbnails/thumbnailResearch.png'
+import thumbDungeon from '../public/images/thumbnails/thumbnailDungeon.png'
 
 const Projects = () => (
         <Container>
