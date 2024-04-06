@@ -28,7 +28,7 @@ const Work = () => {
                         isExternal>Code<ExternalLinkIcon mx = "2px"/></Link>
                     </ListItem>
                 </List>
-                <WorkImage src = "/images/thumbnailNook.png" alt = "FocusNook logo" />
+                <WorkImage src = "/images/thumbnails/thumbnailNook.png" alt = "FocusNook logo" />
                 <WorkImage src = "/images/FocusSignUp.png" alt = "Focus Sign up" />
                 <WorkImage src = "/images/mainNook.png" alt = "Main" />
                 <WorkImage src = "/images/themesNook.png" alt = "Themes" />
