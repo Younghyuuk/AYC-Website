@@ -34,7 +34,7 @@ const Work = () => {
                         isExternal>Code<ExternalLinkIcon mx = "2px"/></Link>
                     </ListItem>
                 </List>
-                <WorkImage src = "/images/thumbnailSlime.png" alt = "Main slime screen" />
+                <WorkImage src = "/images/thumbnails/thumbnailSlime.png" alt = "Main slime screen" />
                 <WorkImage src = "/images/slimeControls.png" alt = "Slime Controls" />
                 <WorkImage src = "/images/slimeGameplay.png" alt = "Gameplay" />
                 <WorkImage src = "/images/slimeGameOver.png" alt = "Gameover" />
