@@ -1,4 +1,4 @@
-import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
+import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import Section from '../components/section'
 import { WorkGrid } from '../components/grids'
 import thumbSlime from '../public/images/thumbSlime.png'
@@ -25,7 +25,6 @@ const Projects = () => (
                     </WorkGrid>
                     </Section> 
                     <Section delay = {0.6}>
-                        {/* <Divider my = {6}/> */}
                         <WorkGrid id = "FocusNook" title = "FocusNook" thumbnail = {thumbNook}>
                             A task management tool that enhances productivity.
                         </WorkGrid>

@@ -1,4 +1,3 @@
-import { forwardRef } from 'react'
 import Logo from './logo'
 import NextLink from 'next/link'
 import {
@@ -41,9 +40,6 @@ const LinkItem = ({ href, path, target, children, ...props }) => {
     )
   }
 
-// const MenuLink = forwardRef((props, ref) => (
-//     <Link ref={ref} as={NextLink} {...props} />
-// ))
 
 const Navbar = props => {
     const { path } = props
@@ -81,9 +77,7 @@ const Navbar = props => {
                     <LinkItem href = "/projects" path = {path}>
                         Projects
                     </LinkItem>
-                    {/* <LinkItem href = "https://www.github.com/Younghyuuk" path = {path}>
-                        Github
-                    </LinkItem> */}
+                    
                     <LinkItem  target = "_blank"  
                     href = "https://www.linkedin.com/in/andrew-chon-b03666298/" 
                     path = {path}

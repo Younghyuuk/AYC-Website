@@ -55,12 +55,12 @@ const Page = () => {
                     About
                     </Heading>
                     <Paragraph>
-                    Based in Auburn, Washington, I'm a full-stack developer passionate about creating digital solutions, 
+                    Based in Auburn, Washington, I&pos;m a full-stack developer passionate about creating digital solutions, 
                     from AI simulations for scientific research to immersive web and game development. My projects include BioDegen, 
                     an AI simulation study on biodegenerative processes with the University of Washington; Revenge of Slime, 
                     a custom-designed web game; FocusNook, a React-based task management tool; and DungeonAdventure,
                     a 2D Java game with auto-battle mechanics in randomly generated dungeons.
-                    When I'm not coding you can finding me either working out or playing video games depending on the day.
+                    When I&pos;m not coding you can finding me either working out or playing video games depending on the day.
                     </Paragraph>
                     <Box align = "center" my = {4}>
                         <NextLink href = "/projects">
