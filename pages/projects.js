@@ -15,8 +15,8 @@ const Projects = () => (
                 <SimpleGrid columns = {[1,1,2]} gap = {6}>
                     <Section delay={0.1}>
                     <WorkGrid id = "BioDegen" title = "BioDegen Research" thumbnail = {thumbResearch}>
-                    Create an automata simulation that uses agents to studies human evolution and biodegenerative processes.
-                    This was an interdisciplinary research project done with Professor Marriott.
+                    An interdisciplinary research project to create an automata simulation to studies genetic evolution.
+                    
                     </WorkGrid>
                     </Section> 
                    <Section delay={0.4}>
