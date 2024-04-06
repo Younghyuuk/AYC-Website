@@ -9,7 +9,7 @@ const Work = () => {
         <Layout title = "Revenge of Slime">
             <Container>
                 <Title>
-                    Revenge of Slime <Badge>2023</Badge>
+                    Revenge of Slime <Badge>2024</Badge>
                 </Title>
                 <P>
                     Revenge of Slime is a game that was created by a team of 3 including myself that was created with the goal of creating a fun and 

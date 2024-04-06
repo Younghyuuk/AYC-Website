@@ -9,7 +9,7 @@ const Work = () => {
         <Layout title = "FocusNook">
             <Container>
                 <Title>
-                    FocusNook <Badge>2023</Badge>
+                    FocusNook <Badge>2024</Badge>
                 </Title>
                 <P>
                     FocusNook is a task management tool that was created by a team of 4 with the goal of enhancing user productivity and focus.
@@ -30,7 +30,9 @@ const Work = () => {
                 </List>
                 <WorkImage src = "/images/thumbNook.png" alt = "FocusNook logo" />
                 <WorkImage src = "/images/FocusSignUp.png" alt = "Focus Sign up" />
-                <WorkImage src = "/images/logIn.png" alt = "Login" />
+                <WorkImage src = "/images/mainNook.png" alt = "Main" />
+                <WorkImage src = "/images/themesNook.png" alt = "Themes" />
+                <WorkImage src = "/images/timer.png" alt = "timer" />
             </Container>
         </Layout>
     )
