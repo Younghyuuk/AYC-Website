@@ -32,7 +32,7 @@ const Work = () => {
                     </ListItem>
                 </List>
                 
-                <WorkImage src = "/images/thumbDungeon.png" alt = "Main" />
+                <WorkImage src = "/images/thumbnailDungeon.png" alt = "Main" />
                 {/* <SimpleGrid columns={2} gap={4}> */}
                     <WorkImage src = "/images/spawnDungeon.png" alt = "Spawn" />
                     <WorkImage src = "/images/keysDun.png" alt = "Keys" />
