@@ -3,7 +3,7 @@ import Section from '../components/section'
 import { WorkGrid } from '../components/grids'
 import thumbSlime from '../public/images/thumbnailSlime.png'
 import thumbNook from '../public/images/thumbnailNook.png'
-import thumbResearch from '../public/images/bioDegenFull.png'
+import thumbResearch from '../public/images/thumbnailResearch.png'
 import thumbDungeon from '../public/images/thumbnailDungeon.png'
 
 const Projects = () => (
