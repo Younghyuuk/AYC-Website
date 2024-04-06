@@ -1,4 +1,4 @@
-import { Container, Badge, SimpleGrid, Link, List, ListItem } from '@chakra-ui/react'
+import { Container, Badge, Link, List, ListItem } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraphStyle'
@@ -32,7 +32,7 @@ const Work = () => {
                     </ListItem>
                 </List>
                 
-                <WorkImage src = "/images/thumbDungeon.png" alt = "Main" />
+                <WorkImage src = "/images/thumbnails/thumbnailDungeon.png" alt = "Main" />
                 {/* <SimpleGrid columns={2} gap={4}> */}
                     <WorkImage src = "/images/spawnDungeon.png" alt = "Spawn" />
                     <WorkImage src = "/images/keysDun.png" alt = "Keys" />

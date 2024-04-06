@@ -1,10 +1,10 @@
-import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
+import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import Section from '../components/section'
 import { WorkGrid } from '../components/grids'
-import thumbSlime from '../public/images/thumbSlime.png'
-import thumbNook from '../public/images/thumbNook.png'
-import thumbResearch from '../public/images/thumbResearch.png'
-import thumbDungeon from '../public/images/thumbDungeon.png'
+import thumbSlime from '../public/images/thumbnails/thumbnailSlime.png'
+import thumbNook from '../public/images/thumbnails/thumbnailNook.png'
+import thumbResearch from '../public/images/thumbnails/thumbnailResearch.png'
+import thumbDungeon from '../public/images/thumbnails/thumbnailDungeon.png'
 
 const Projects = () => (
         <Container>
@@ -15,8 +15,8 @@ const Projects = () => (
                 <SimpleGrid columns = {[1,1,2]} gap = {6}>
                     <Section delay={0.1}>
                     <WorkGrid id = "BioDegen" title = "BioDegen Research" thumbnail = {thumbResearch}>
-                    Create an automata simulation that uses agents to studies human evolution and biodegenerative processes.
-                    This was an interdisciplinary research project done with Professor Marriott.
+                    An interdisciplinary research project to create an automata simulation to studies genetic evolution.
+                    
                     </WorkGrid>
                     </Section> 
                    <Section delay={0.4}>
@@ -25,7 +25,6 @@ const Projects = () => (
                     </WorkGrid>
                     </Section> 
                     <Section delay = {0.6}>
-                        {/* <Divider my = {6}/> */}
                         <WorkGrid id = "FocusNook" title = "FocusNook" thumbnail = {thumbNook}>
                             A task management tool that enhances productivity.
                         </WorkGrid>
