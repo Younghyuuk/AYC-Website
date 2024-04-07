@@ -1,12 +1,15 @@
 import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import Section from '../components/section'
 import { WorkGrid } from '../components/grids'
+import Layout from '../components/layouts/pageTransition'
+
 import thumbSlime from '../public/images/thumbnails/thumbnailSlime.png'
 import thumbNook from '../public/images/thumbnails/thumbnailNook.png'
 import thumbResearch from '../public/images/thumbnails/thumbnailResearch.png'
 import thumbDungeon from '../public/images/thumbnails/thumbnailDungeon.png'
 
 const Projects = () => (
+    <Layout title="Works">
         <Container>
             <Section>
                 <Heading as = "h3" fontSize = {20} mb = {4}>
@@ -37,6 +40,7 @@ const Projects = () => (
                 </SimpleGrid>
             </Section>
         </Container>
+    </Layout>
 )
 
 

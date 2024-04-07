@@ -116,7 +116,7 @@ const Navbar = props => {
                             />
                             <MenuList>
                                 <MenuItem as={Link} href="/projects">
-                                    Works
+                                    Projects
                                 </MenuItem>
                                 {/* <MenuItem as={Link} href="https://www.github.com/Younghyuuk">
                                     Github
