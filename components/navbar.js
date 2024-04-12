@@ -79,7 +79,7 @@ const Navbar = props => {
                     </LinkItem>
                     
                     <LinkItem  target = "_blank"  
-                    href = "https://www.linkedin.com/in/andrew-chon-b03666298/" 
+                    href = "https://www.linkedin.com/in/andrew-yhk/" 
                     path = {path}
                     display = "inline-flex"
                     alignItems = "center"
@@ -121,7 +121,7 @@ const Navbar = props => {
                                 {/* <MenuItem as={Link} href="https://www.github.com/Younghyuuk">
                                     Github
                                 </MenuItem> */}
-                                <MenuItem as={Link} href="https://www.linkedin.com/in/andrew-chon-b03666298/">
+                                <MenuItem as={Link} href="https://www.linkedin.com/in/andrew-yhk/">
                                     LinkedIn
                                 </MenuItem>
                                 <MenuItem as = {Link} href = "http://www.github.com/Younghyuuk/AYC-Website">Source Code</MenuItem>
