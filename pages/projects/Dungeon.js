@@ -23,7 +23,7 @@ const Work = () => {
                 <List ml = {4} my = {4}>    
                     <ListItem>
                         <Meta>Stack</Meta> 
-                        <span>Java, SQLite, Serialization </span>
+                        <span>Java, Java Swing, SQLite, Serialization </span>
                     </ListItem>
                     <ListItem>
                         <Meta>Source Code</Meta> 
