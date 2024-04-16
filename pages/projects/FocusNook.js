@@ -20,7 +20,7 @@ const Work = () => {
                 <List ml = {4} my = {4}>    
                     <ListItem>
                         <Meta>Stack</Meta> 
-                        <span>JavaScript, Express, HTML, CSS, React, MongoDB </span>
+                        <span>JavaScript, MongoDB, Express, React, Node.js, HTML, CSS </span>
                     </ListItem>
                     <ListItem>
                         <Meta>Source Code</Meta> 
