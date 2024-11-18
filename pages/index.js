@@ -22,7 +22,7 @@ const Page = () => {
         <Layout>
             <Container> 
                 <Box borderRadius = "lg" bg = {useColorModeValue('whiteAlpha.700', 'whiteAlpha.500')} p = {3} mb = {5} align = "center">
-                    Hello, I&apos;m a full-time student in Washington state!
+                    Hello, I&apos;m a fullstack developer in Washington state!
                 </Box>
                 <Box display  = {{md:'flex'}} >
                     <Box flexGrow = {0.8} >   
@@ -93,7 +93,7 @@ const Page = () => {
                     </BioSection>
                     <BioSection>
                         <BioYear>June 2024</BioYear> 
-                        Complete my Bachelor&apos;s in computer science.
+                        Completed my Bachelor&apos;s in computer science.
                     </BioSection>
                 </Section>
 
@@ -102,7 +102,7 @@ const Page = () => {
                         Skills
                     </Heading>
                     <Paragraph>
-                        JavaScript, Java, Node.js, React, Next.js, MongoDB, SQL, Git, CSS, HTML, JUnit, Agile Methodologies.
+                        JavaScript, TypeScript, Java, Python, Node.js, React, Next.js, MongoDB, AWS, Google Cloud, SQL, Git, CSS, HTML, JUnit, Agile Methodologies.
                     </Paragraph>
                 </Section>
 
