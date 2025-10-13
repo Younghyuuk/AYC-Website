@@ -66,12 +66,30 @@ const Page = () => {
                     dungeon auto-battler
                     When I&apos;m not coding or researching, I enjoy exploring new games, weightlifting, and learning about tech-driven solutions.
                     </Paragraph>
-                    <Box align = "center" my = {4}>
-                        <NextLink href = "/projects">
-                        <Button rightIcon = {<ChevronRightIcon />} colorScheme = "teal" variant = "outline">
-                            My Portfolio
-                        </Button>
+                    <Box align="center" my={4}>
+                         <NextLink href="/research" passHref>
+                            <Button
+                            rightIcon={<ChevronRightIcon />}
+                            colorScheme="purple"
+                            variant="outline"
+                            mx={2}
+                            >
+                            My Research
+                            </Button>
                         </NextLink>
+                        
+                        <NextLink href="/projects" passHref>
+                            <Button
+                            rightIcon={<ChevronRightIcon />}
+                            colorScheme="teal"
+                            variant="outline"
+                            mx={2}
+                            >
+                            My Portfolio
+                            </Button>
+                        </NextLink>
+
+                       
                     </Box>
                 </Section>
 
@@ -101,7 +119,7 @@ const Page = () => {
                     </BioSection>
                     <BioSection>
                         <BioYear>🎓 January 2026</BioYear> 
-                        Completed my Bachelor&apos;s in computer science.
+                        Start my Master&apos;s in computer science (thesis) at Washington State University.
                     </BioSection>
                     <BioSection>
                         <BioYear>📝 March 2026</BioYear> 
