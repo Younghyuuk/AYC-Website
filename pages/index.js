@@ -29,7 +29,8 @@ const Page = () => {
                         <Heading as = "h2" variant = "page-title"> 
                             Andrew Y. Chon
                         </Heading>
-                        <p> Aspiring Software Developer </p>
+                        <p> M.S. (Thesis) Student - Computer Science
+                            Washington State University (January 2026) </p>
                     </Box>
                     <Box 
                         flexShrink = {0} 
@@ -55,12 +56,15 @@ const Page = () => {
                     About
                     </Heading>
                     <Paragraph>
-                    Based in Auburn, Washington, I&apos;m a full-stack developer passionate about creating digital solutions, 
-                    from AI simulations for scientific research to immersive web and game development. My projects include BioDegen, 
-                    an AI simulation study on biodegenerative processes with the University of Washington; Revenge of Slime, 
-                    a custom-designed web game; FocusNook, a React-based task management tool; and DungeonAdventure,
-                    a 2D Java game with auto-battle mechanics in randomly generated dungeons.
-                    When I&apos;m not coding you can finding me either working out or playing video games depending on the day.
+                    
+                    Based in Auburn, Washington, I&apos;m a software developer and incoming master&apos;s student at WSU focused on building 
+                    research-driven, user-centered solutions. My recent work includes research on automata simulations and AI for biological data 
+                    with the University of Washington Tacoma. I specialize in building reproducible pipelines, 
+                    interactive platforms, and game-inspired applications.
+                    My projects include; BioDegen, a simulation platform to study genotype-environment interactions, Revenge of Slime a
+                    custom-designed 2D rogue-lite game, FocusNook a React-based productivity web app, DungeonAdventure a 2D Java-based 
+                    dungeon auto-battler
+                    When I&apos;m not coding or researching, I enjoy exploring new games, weightlifting, and learning about tech-driven solutions.
                     </Paragraph>
                     <Box align = "center" my = {4}>
                         <NextLink href = "/projects">
@@ -76,34 +80,66 @@ const Page = () => {
                         Bio
                     </Heading>
                     <BioSection>
-                        <BioYear>2002</BioYear> 
+                        <BioYear>🎉 2002</BioYear> 
                         Born in Los Angeles, California.
                     </BioSection>
                     <BioSection>
-                        <BioYear>2016</BioYear> 
+                        <BioYear>🏫 2016</BioYear> 
                         Started highschool at Auburn Riverside Highschool.
                     </BioSection>
                     <BioSection>
-                        <BioYear>2020</BioYear> 
+                        <BioYear>🎓 2020</BioYear> 
                         Started my Bachelor&apos;s at the University of Washington Tacoma.
                     </BioSection>
                     <BioSection>
-                        <BioYear>Winter 2023</BioYear> 
-                        Started research at the University of Washington Tacoma with Professor Marriott.
+                        <BioYear>🔬 January 2024</BioYear> 
+                        Started research at the University of Washington Tacoma with Professor Marriott on BioDegen.
                     </BioSection>
                     <BioSection>
-                        <BioYear>June 2024</BioYear> 
+                        <BioYear>🎓 June 2024</BioYear> 
                         Completed my Bachelor&apos;s in computer science.
                     </BioSection>
+                    <BioSection>
+                        <BioYear>🎓 January 2026</BioYear> 
+                        Completed my Bachelor&apos;s in computer science.
+                    </BioSection>
+                    <BioSection>
+                        <BioYear>📝 March 2026</BioYear> 
+                        Expected date for BioDegen manuscript.
+                    </BioSection>
+                    
                 </Section>
 
-                <Section delay = {0.3}>
-                    <Heading as = "h3" variant = "section-title">
+               <Section delay={0.3}>
+                    <Heading as="h3" variant="section-title">
                         Skills
                     </Heading>
-                    <Paragraph>
-                        JavaScript, TypeScript, Java, Python, Node.js, React, Next.js, MongoDB, AWS, Google Cloud, SQL, Git, CSS, HTML, JUnit, Agile Methodologies.
-                    </Paragraph>
+
+                    <List spacing={3} pl={4}>
+                        <ListItem>
+                        <b>💻 Languages:</b> JavaScript, TypeScript, Python, Java, R
+                        </ListItem>
+
+                        <ListItem>
+                        <b>⚙️ Frameworks & Libraries:</b> React, Next.js, Node.js, Chakra UI
+                        </ListItem>
+
+                        <ListItem>
+                        <b>🗄️ Databases:</b> MongoDB, MySQL, SQL
+                        </ListItem>
+
+                        <ListItem>
+                        <b>☁️ Cloud & Tools:</b> AWS, Google Cloud, Docker (basic)
+                        </ListItem>
+
+                        <ListItem>
+                        <b>📊 Data & Research:</b> NumPy, scikit-learn, data pipelines, reproducibility workflows
+                        </ListItem>
+
+                        <ListItem>
+                        <b>🧰 Other:</b> Git, CSS, HTML, JUnit, Agile Methodologies
+                        </ListItem>
+                    </List>
                 </Section>
 
                 <Section delay = {0.3}>

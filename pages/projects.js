@@ -1,27 +1,43 @@
-import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
+import { Container, Heading, SimpleGrid, Text } from '@chakra-ui/react'
 import Section from '../components/section'
 import { WorkGrid } from '../components/grids'
 import Layout from '../components/layouts/pageTransition'
 
 import thumbSlime from '../public/images/thumbnails/thumbnailSlime.png'
 import thumbNook from '../public/images/thumbnails/thumbnailNook.png'
-import thumbResearch from '../public/images/thumbnails/thumbnailResearch.png'
+// import thumbResearch from '../public/images/thumbnails/thumbnailResearch.png'
 import thumbDungeon from '../public/images/thumbnails/thumbnailDungeon.png'
+import thumbBB from '../public/images/thumbnails/thumbnailBB.png'
 
 const Projects = () => (
     <Layout title="Works">
         <Container>
             <Section>
-                <Heading as = "h3" fontSize = {20} mb = {4}>
-                    Projects
+                <Heading as="h3" fontSize={20} mb={2}>
+                Projects
                 </Heading>
+                <Text fontSize={14} color="gray.400" mb={4}>
+                    Click on a project card to learn more about each build.
+                </Text>
+
                 <SimpleGrid columns = {[1,1,2]} gap = {6}>
-                    <Section delay={0.1}>
+                    {/* <Section delay={0.1}>
                     <WorkGrid id = "BioDegen" title = "BioDegen Research" thumbnail = {thumbResearch}>
                     An interdisciplinary research project to create an automata simulation to study genetics.
                     
                     </WorkGrid>
-                    </Section> 
+                    </Section>  */}
+                    <Section delay={0.1}>
+                        <WorkGrid
+                            id="binaryBod"
+                            title="BinaryBod"
+                            thumbnail={thumbBB}
+                        >
+                            A full-stack fitness tracker that helps users log workouts, nutrition, and manage exercise plans. 
+                            Built with TypeScript, React, MySQL, and Express using agile methodologies.
+                        </WorkGrid>
+                    </Section>
+
                    <Section delay={0.4}>
                     <WorkGrid id = "Slime" title = "Revenge of Slime" thumbnail = {thumbSlime}>
                         A 2d roguelike game that a team of 3 developers created in 7 weeks.
@@ -33,7 +49,7 @@ const Projects = () => (
                         </WorkGrid>
                     </Section>
                     <Section delay = {0.8}>
-                        <WorkGrid id = "Dungeon" title = "DungeonAdventure" thumbnail = {thumbDungeon}>
+                        <WorkGrid id = "Dungeon" title = "Dungeon Adventure" thumbnail = {thumbDungeon}>
                             A game created in Java that allows you to roam a randomly generated dungeon and auto fight monsters.
                         </WorkGrid>
                     </Section>

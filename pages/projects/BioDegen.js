@@ -6,36 +6,45 @@ import Layout from '../../components/layouts/pageTransition'
 
 const Work = () => {
     return (
-        <Layout title = "BioDegen">
+        <Layout title="BioDegen">
             <Container>
                 <Title>
-                    BioDegen <Badge>2023</Badge>
+                    BioDegen <Badge>2024 – 2026</Badge>
                 </Title>
+
                 <P>
-                    A research project that uses automata simulation to study human evolution and biodegenerative processes. A interdisciplinary
-                    research project done with Professor Marriott at the University of Washington Tacoma. With data collection and visualization
-                    we are able to study the effects of genetics on the human body over long periods of time on these AI agents.
+                    <strong>BioDegen</strong> is an interdisciplinary research project that uses automata simulations to explore biodegenerative processes. 
+                    Conducted with <Link href="https://www.tacoma.uw.edu/sias/marriott" isExternal color="teal.300">
+                        Professor Marriott <ExternalLinkIcon mx="2px" />
+                    </Link> at the University of Washington Tacoma, the project simulates genotype-environment interactions in AI agents over multiple generations.
                 </P>
-                <List ml = {4} my = {4}>    
+
+                <P>
+                    With robust data collection and parameter sweeps, BioDegen enables visualization and statistical analysis of genetic effects on agent behavior, health degradation, and adaptation over time. The results help us form testable hypotheses for evolutionary patterns under simulated environmental pressures.
+                </P>
+
+                <List ml={4} my={4}>
                     <ListItem>
-                        <Meta>Simulation</Meta> 
-                        <Link href = "https://algorithm0r.github.io/BioDegen/">
-                            BioDegen<ExternalLinkIcon mx = "2px"/>
+                        <Meta>Simulation</Meta>
+                        <Link href="https://algorithm0r.github.io/BioDegen/" isExternal>
+                            BioDegen Live Demo <ExternalLinkIcon mx="2px" />
                         </Link>
                     </ListItem>
                     <ListItem>
-                        <Meta>Stack</Meta> 
-                        <span>JavaScript, HTML, CSS </span>
+                        <Meta>Stack</Meta>
+                        JavaScript, Python, MongoDB, HTML, CSS
                     </ListItem>
                     <ListItem>
-                        <Meta>Source Code</Meta> 
-                        <Link href = "https://www.github.com/Younghyuuk/BioDegen" 
-                        isExternal>Code<ExternalLinkIcon mx = "2px"/></Link>
+                        <Meta>Source Code</Meta>
+                        <Link href="https://github.com/Younghyuuk/BioDegen" isExternal>
+                            GitHub Repo <ExternalLinkIcon mx="2px" />
+                        </Link>
                     </ListItem>
                 </List>
-                <WorkImage src = "/images/bioDegenFull.png" alt = "BioDegen" />
-                <WorkImage src = "/images/bioBox.png" alt = "BioDegen" />
-                <WorkImage src = "/images/bioGraph.png" alt = "BioDegen" />
+
+                <WorkImage src="/images/bioDegenFull.png" alt="BioDegen Full View" />
+                <WorkImage src="/images/bioBox.png" alt="BioDegen Genetic Box" />
+                <WorkImage src="/images/L03M2.png" alt="BioDegen Genetic Trends Graph" />
             </Container>
         </Layout>
     )
